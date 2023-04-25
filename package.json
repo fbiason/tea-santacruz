@@ -1,0 +1,11 @@
+{
+  "name": "tea-santacruz",
+  "version": "1.0.0",
+  "description": "Fundación TEA Santa Cruz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Biason Franco",
+  "license": "ISC"
+}
