@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #31108b;
 }
 
 a {
@@ -496,7 +496,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #e03a3c;
+  background: #f4bb3c;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -512,7 +512,7 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #1b1b1b;
+  background: #145c94;
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -597,80 +597,61 @@ section {
   filter: none;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-.about .container {
+.nosotros .container {
   position: relative;
   z-index: 10;
 }
 
-.about .content {
+.nosotros .content {
   padding: 30px 30px 30px 0;
 }
 
-.about .content h3 {
+.nosotros .content h3 {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
 }
 
-.about .content p {
+.nosotros .content p {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
-.about .content .about-btn {
-  padding: 8px 30px 9px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: 0.3s;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 13px;
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #e03a3c;
-}
-
-.about .content .about-btn i {
+.nosotros .content .nosotros-btn i {
   font-size: 16px;
   padding-left: 5px;
 }
 
-.about .content .about-btn:hover {
-  background: #e35052;
-  background: #e03a3c;
-}
-
-.about .icon-boxes .icon-box {
+.nosotros .icon-boxes .icon-box {
   margin-top: 30px;
 }
 
-.about .icon-boxes .icon-box i {
+.nosotros .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #e03a3c;
+  color: #f4bb3c;
   margin-bottom: 10px;
 }
 
-.about .icon-boxes .icon-box h4 {
+.nosotros .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
 }
 
-.about .icon-boxes .icon-box p {
+.nosotros .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
+  text-align: justify;
+  color: #ddd8d8;
 }
 
 @media (max-width: 1200px) {
-  .about .content {
+  .nosotros .content {
     padding-right: 0;
   }
 }
 @media (max-width: 768px) {
-  .about {
-    text-align: center;
+  .nosotros {
+    text-align: justify;
   }
 }
 /*--------------------------------------------------------------

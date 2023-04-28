@@ -1,0 +1,62 @@
+
+
+  .nosotros .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .nosotros .content {
+    padding: 30px 30px 30px 0;
+  }
+  
+  .nosotros .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  
+  .nosotros .content p {
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .nosotros .content .nosotros-btn i {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+  
+  
+  .nosotros .icon-boxes .icon-box {
+    margin-top: 30px;
+  }
+  
+  .nosotros .icon-boxes .icon-box i {
+    font-size: 40px;
+    color: #f4bb3c ;
+    margin-bottom: 10px;
+  }
+  
+  .nosotros .icon-boxes .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+  
+  .nosotros .icon-boxes .icon-box p {
+    font-size: 15px;
+    text-align: justify;
+    color: #ddd8d8;
+  }
+  
+  @media (max-width: 1200px) {
+    .nosotros .content {
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nosotros {
+      text-align: justify;
+    }
+  }
+  
