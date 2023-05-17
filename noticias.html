@@ -38,7 +38,21 @@
 </head>
 
 <body>
+<!-- Pueba SKD FACEBOOK -->
 
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '1675286429584538',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v16.0'
+    });
+  };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+<!-- FIN PRUEBA SKD -->
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
@@ -126,7 +140,8 @@
         <article class="entry">
 
           <div class="entry-img">
-            <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+            <!-- <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid"> -->
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FOpinionAustral%2Fvideos%2F1233208217557321%2F&show_text=false&width=560&t=0" width="560" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
 
           <h2 class="entry-title">
@@ -156,7 +171,8 @@
         <article class="entry">
 
           <div class="entry-img">
-            <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+            <!-- <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid"> -->
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFundacionTeaSantaCruz%2Fposts%2F650829283749418&show_text=true&width=500" width="500" height="840" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           </div>
 
           <h2 class="entry-title">
@@ -213,6 +229,13 @@
 
         </article><!-- End blog entry -->
 
+        <!-- Prueba para insertar noticias -->
+
+        <article class="entry">
+          <div class="entry-meta">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FFundacionTeaSantaCruz%2Fvideos%2F270274918685943%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          </div>
+        </article>  
         <div class="blog-pagination">
           <ul class="justify-content-center">
             <li><a href="#">1</a></li>
@@ -220,6 +243,13 @@
             <li><a href="#">3</a></li>
           </ul>
         </div>
+
+        <div id="publicaciones-facebook">
+          <div class="entry-meta"></div>
+        </div>
+
+        <!-- Fin espacio pruebas -->
+
 
       </div><!-- End blog entries list -->
 
@@ -398,6 +428,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/server.js"></script>
+
 
 </body>
 
