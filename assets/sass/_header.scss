@@ -7,16 +7,20 @@
 }
 
 #header.header-transparent {
-  background: transparent;
+  background: linear-gradient(
+    0deg,
+    rgb(250, 250, 250) 0%,
+    rgb(51, 54, 74) 100%
+  );
 }
 
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  background: rgba(217, 217, 218, 0.504);
 }
 
 #header .logo img {
   padding: 10px;
-  margin-top: 20px;
-  margin: 5px;
+  margin-top: 30px;
+  margin: 10px;
   max-height: 80px;
 }
