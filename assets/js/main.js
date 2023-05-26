@@ -173,9 +173,9 @@
     }
   });
   /**
-   * Clients Slider
+   * Auspiciantes Slider
    */
-  new Swiper(".clients-slider", {
+  new Swiper(".auspiciantes-slider", {
     speed: 400,
     loop: true,
     autoplay: {

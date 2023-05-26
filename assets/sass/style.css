@@ -460,6 +460,36 @@ section {
   transform: skewY(-3deg);
 }
 
+.auspiciantes .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.auspiciantes .swiper-pagination .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #e03a3c;
+}
+
+.auspiciantes .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #e03a3c;
+}
+
+.auspiciantes .swiper-slide img {
+  width: 20em;
+  height: 10em;
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.auspiciantes .swiper-slide img:hover {
+  opacity: 1;
+  filter: none;
+}
+
 .congreso-lugar {
   box-sizing: content-box;
   padding: 30px;
@@ -596,37 +626,6 @@ section {
   padding-right: 10px;
   color: #e03a3c;
   content: "/";
-}
-
-/*--------------------------------------------------------------
- # Clients
- --------------------------------------------------------------*/
-.clients .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #e03a3c;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e03a3c;
-}
-
-.clients .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
-
-.clients .swiper-slide img:hover {
-  opacity: 1;
-  filter: none;
 }
 
 .nosotros .container {
