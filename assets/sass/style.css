@@ -66,6 +66,65 @@ h6 {
     transition-delay: 0 !important;
   }
 }
+/*--------------------------------------------------------------
+# Get Startet Button
+--------------------------------------------------------------*/
+.get-started-btn {
+  margin-left: 30px;
+  background: #e03a3c;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.get-started-btn:hover {
+  background: #111111;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .get-started-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
+section {
+  padding: 60px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.section-bg {
+  padding: 120px 0;
+  color: #fff;
+}
+
+.section-bg:before {
+  content: "";
+  background: #145c94;
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
+}
+
 .navbar {
   padding: 0;
 }
@@ -381,85 +440,6 @@ h6 {
     background-image: url("../img/hero-5.jpg");
   }
 }
-/*--------------------------------------------------------------
-# Get Startet Button
---------------------------------------------------------------*/
-.get-started-btn {
-  margin-left: 30px;
-  background: #e03a3c;
-  color: #fff;
-  border-radius: 4px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  font-weight: 600;
-  display: inline-block;
-}
-
-.get-started-btn:hover {
-  background: #111111;
-  color: #fff;
-}
-
-@media (max-width: 992px) {
-  .get-started-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
-  }
-}
-section {
-  padding: 60px 0;
-  overflow: hidden;
-  position: relative;
-}
-
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-  position: relative;
-}
-
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #f4bb3c;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-.section-title p {
-  margin-bottom: 0;
-}
-
-.section-bg {
-  padding: 120px 0;
-  color: #fff;
-}
-
-.section-bg:before {
-  content: "";
-  background: #145c94;
-  position: absolute;
-  bottom: 60px;
-  top: 60px;
-  left: 0;
-  right: 0;
-  transform: skewY(-3deg);
-}
-
 .auspiciantes .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -490,15 +470,27 @@ section {
   filter: none;
 }
 
-.congreso-lugar {
-  box-sizing: content-box;
-  padding: 30px;
-  margin: 30px 15px;
-  min-height: 200px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  position: relative;
-  background: #fff;
-  border-radius: 15px;
+.congreso h4 {
+  text-align: center;
+}
+
+.congreso h3 {
+  text-align: center;
+}
+
+.line {
+  border-top: 5px solid;
+  color: #6cc400;
+  width: 50%;
+  display: inline-block;
+}
+
+.congreso .icon i {
+  color: #f4bb3c;
+}
+
+.congreso .icon h4 {
+  color: #fff;
 }
 
 .disertantes .testimonials-carousel,
@@ -508,9 +500,9 @@ section {
 
 .disertantes .testimonial-item {
   box-sizing: content-box;
+  text-align: justify;
   padding: 30px;
   margin: 30px 15px;
-  min-height: 200px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
@@ -518,7 +510,8 @@ section {
 }
 
 .disertantes .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 10px;
   border: 6px solid #fff;
   float: left;
@@ -581,6 +574,34 @@ section {
 
 .disertantes p {
   color: red;
+}
+
+.custom-btn {
+  width: 200px;
+  height: 80px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-1 {
+  background: #f4bb3c;
+  background: linear-gradient(0deg, #e27c2d 0%, #f4bb3c 100%);
+  border: none;
+}
+
+.btn-1:hover {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(0deg, #145c94 0%, #94b46c 100%);
 }
 
 /*--------------------------------------------------------------

@@ -4,8 +4,9 @@ Paleta Colores:
 .color3 { #145c94 }; (azul)
 .color4 { #9cb36c };
 .color5 { #94b46c }; (verde)
+.color6 { #e27c2d }; (naranja)
 
-22-5-2023
+26-5-2023
 
 --/////////-BLOG
     <!-- ======= Breadcrumbs ======= -->
