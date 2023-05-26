@@ -1,9 +1,29 @@
-.congreso h4 {
+.congreso {
+  background-image: url("../img/congreso/peritomoreno.jpg");
+  background-color: #082c48fc;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+}
+
+.congreso h1 {
   text-align: center;
+  color: #e27c2d;
+}
+
+.congreso h2 {
+  text-align: center;
+  color: #e27c2d;
 }
 
 .congreso h3 {
   text-align: center;
+  color: #f4bb3c;
+}
+
+.congreso h4 {
+  text-align: center;
+  color: #f4bb3c;
 }
 
 .line {
@@ -101,9 +121,13 @@
 }
 
 .disertantes p {
-  color: red;
+  color: rgb(0, 0, 0);
 }
 
+.button {
+  text-align: center;
+  justify-content: center;
+}
 .custom-btn {
   width: 200px;
   height: 80px;

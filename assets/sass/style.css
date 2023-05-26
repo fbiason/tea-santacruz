@@ -119,10 +119,20 @@ section {
   background: #145c94;
   position: absolute;
   bottom: 60px;
-  top: 60px;
+  top: 30px;
   left: 0;
   right: 0;
   transform: skewY(-3deg);
+}
+
+#divider {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: top center;
 }
 
 .navbar {
@@ -440,42 +450,32 @@ section {
     background-image: url("../img/hero-5.jpg");
   }
 }
-.auspiciantes .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
+.congreso {
+  background-image: url("../img/congreso/peritomoreno.jpg");
+  background-color: rgba(8, 44, 72, 0.9882352941);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
-.auspiciantes .swiper-pagination .swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #e03a3c;
-}
-
-.auspiciantes .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e03a3c;
-}
-
-.auspiciantes .swiper-slide img {
-  width: 20em;
-  height: 10em;
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
-
-.auspiciantes .swiper-slide img:hover {
-  opacity: 1;
-  filter: none;
-}
-
-.congreso h4 {
+.congreso h1 {
   text-align: center;
+  color: #e27c2d;
+}
+
+.congreso h2 {
+  text-align: center;
+  color: #e27c2d;
 }
 
 .congreso h3 {
   text-align: center;
+  color: #f4bb3c;
+}
+
+.congreso h4 {
+  text-align: center;
+  color: #f4bb3c;
 }
 
 .line {
@@ -573,7 +573,12 @@ section {
 }
 
 .disertantes p {
-  color: red;
+  color: rgb(0, 0, 0);
+}
+
+.button {
+  text-align: center;
+  justify-content: center;
 }
 
 .custom-btn {
@@ -602,6 +607,36 @@ section {
 .btn-1:hover {
   background: rgb(0, 3, 255);
   background: linear-gradient(0deg, #145c94 0%, #94b46c 100%);
+}
+
+.auspiciantes .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.auspiciantes .swiper-pagination .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #e03a3c;
+}
+
+.auspiciantes .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #e03a3c;
+}
+
+.auspiciantes .swiper-slide img {
+  width: 20em;
+  height: 10em;
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.auspiciantes .swiper-slide img:hover {
+  opacity: 1;
+  filter: none;
 }
 
 /*--------------------------------------------------------------
