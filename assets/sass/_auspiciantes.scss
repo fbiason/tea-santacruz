@@ -1,5 +1,6 @@
 .auspiciantes .swiper-pagination {
   margin-top: 20px;
+  margin: 5rem;
   position: relative;
 }
 
@@ -15,15 +16,15 @@
   background-color: #e03a3c;
 }
 
-.auspiciantes .swiper-slide img {
-  width: 20em;
-  height: 10em;
+.auspiciantes .auspiciantes-slider img {
+  width: auto;
+  height: auto;
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
 }
 
-.auspiciantes .swiper-slide img:hover {
+.auspiciantes .auspiciantes-slider img:hover {
   opacity: 1;
   filter: none;
 }
