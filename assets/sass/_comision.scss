@@ -5,9 +5,9 @@
   background: #fff;
 }
 
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
+.member-img img {
+  max-width: 600px;
+  height: 100%;
 }
 
 .team .member .social {
