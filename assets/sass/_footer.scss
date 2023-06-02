@@ -158,3 +158,35 @@
   color: #fff;
   text-decoration: none;
 }
+
+.modal {
+  text-align: justify;
+}
+
+.modal-content {
+  width: 150%;
+}
+
+@media (min-width: 768px) {
+  .footer-links {
+    text-align: center;
+  }
+
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .footer-links {
+    text-align: center;
+  }
+
+  .modal-dialog {
+    align-items: center;
+  }
+
+  .modal-content {
+    width: 150%;
+  }
+}
