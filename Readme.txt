@@ -4,8 +4,17 @@ Paleta Colores:
 .color3 { #145c94 }; (azul)
 .color4 { #9cb36c };
 .color5 { #94b46c }; (verde)
+.color6 { #e27c2d }; (naranja)
 
+26-5-2023
 
+ACTIVIDADES:
+1. MATEAMOS
+2. PILETEAMOS
+3. ASESORAMIENTO LEGAL
+4. FUNDACION TEA SANTA CRUZ TE ACOMPAÑA (RECORRIDO POR EL INTERIOR DE LA PROVCINCIA)
+5. TALLERES
+6. CONGRESO
 
 --/////////-BLOG
     <!-- ======= Breadcrumbs ======= -->

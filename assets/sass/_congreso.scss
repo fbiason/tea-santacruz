@@ -1,12 +1,44 @@
-.congreso-lugar {
-  box-sizing: content-box;
-  padding: 30px;
-  margin: 30px 15px;
-  min-height: 200px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  position: relative;
-  background: #fff;
-  border-radius: 15px;
+.congreso {
+  background-image: url("../img/congreso/peritomoreno.jpg");
+  background-color: #082c48fc;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+}
+
+.congreso h1 {
+  text-align: center;
+  color: #e27c2d;
+}
+
+.congreso h2 {
+  text-align: center;
+  color: #e27c2d;
+}
+
+.congreso h3 {
+  text-align: center;
+  color: #f4bb3c;
+}
+
+.congreso h4 {
+  text-align: center;
+  color: #f4bb3c;
+}
+
+.line {
+  border-top: 5px solid;
+  color: #6cc400;
+  width: 50%;
+  display: inline-block;
+}
+
+.congreso .icon i {
+  color: #f4bb3c;
+}
+
+.congreso .icon h4 {
+  color: #fff;
 }
 
 .disertantes .testimonials-carousel,
@@ -16,9 +48,9 @@
 
 .disertantes .testimonial-item {
   box-sizing: content-box;
+  text-align: justify;
   padding: 30px;
   margin: 30px 15px;
-  min-height: 200px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
@@ -26,7 +58,8 @@
 }
 
 .disertantes .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 10px;
   border: 6px solid #fff;
   float: left;
@@ -88,5 +121,37 @@
 }
 
 .disertantes p {
-  color: red;
+  color: rgb(0, 0, 0);
+}
+
+.button {
+  text-align: center;
+  justify-content: center;
+}
+.custom-btn {
+  width: 200px;
+  height: 80px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-1 {
+  background: #f4bb3c;
+  background: linear-gradient(0deg, #e27c2d 0%, #f4bb3c 100%);
+  border: none;
+}
+.btn-1:hover {
+  background: rgb(0, 3, 255);
+  background: linear-gradient(0deg, #145c94 0%, #94b46c 100%);
 }
