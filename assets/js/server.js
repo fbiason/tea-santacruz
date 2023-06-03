@@ -1,35 +1,38 @@
-window.fbAsyncInit = function () {
-  FB.init({
-    appId: "1675286429584538",
-    cookie: true,
-    xfbml: true,
-    version: "v11.0",
-  });
-
-  FB.api(
-    "/2289963967954556/feed?access_token=4407751cf4b45a31b16bba31f381fad7",
-    function (response) {
-      var publicaciones = response.data;
-      var publicacionesHTML = "";
-      for (var i = 0; i < publicaciones.length; i++) {
-        if (publicaciones[i].message) {
-          publicacionesHTML += "<p>" + publicaciones[i].message + "</p>";
-        }
-      }
-      document.getElementById("publicaciones-facebook").innerHTML =
-        publicacionesHTML;
+document.addEventListener("DOMContentLoaded", function () {
+  // Seleccionar los elementos
+  const inputName = document.querySelector("#name");
+  const inputEmail = document.querySelector("#email");
+  const inputSubject = document.querySelector("#subject");
+  const inputMessage = document.querySelector("#message");
+  const formulario = document.querySelector("#form");
+  console.log(inputSubject);
+  // Asignando Eventos
+  inputName.addEventListener("blur", validar);
+  inputEmail.addEventListener("blur", validar);
+  inputSubject.addEventListener("blur", validar);
+  inputMessage.addEventListener("blur", validar);
+  // Creando funcion Validar
+  function validar(e) {
+    if (e.target.value.trim() === "") {
+      mostrarAlerta(
+        `El Campo ${e.target.placeholder} es Obligatorio `,
+        e.target.parentElement
+      );
+      return;
     }
-  );
-};
-
-(function (d, s, id) {
-  var js,
-    fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {
-    return;
+    console.log("despues del if");
   }
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://connect.facebook.net/en_US/sdk.js";
-  fjs.parentNode.insertBefore(js, fjs);
-})(document, "script", "facebook-jssdk");
+  function mostrarAlerta(mensaje, referencia) {
+    // No repetir Alerta
+    const alerta = referencia.querySelector("text-uppercase");
+    if (alerta) {
+      alerta.remove();
+    }
+    // Alerta en Pantalla
+    const error = document.createElement("P");
+    error.textContent = mensaje;
+    error.classList.add("bg-light", "text-uppercase");
+    // Agregar Error al Formulario
+    referencia.appendChild(error);
+  }
+});
