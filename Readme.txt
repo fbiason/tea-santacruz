@@ -6,7 +6,7 @@ Paleta Colores:
 .color5 { #94b46c }; (verde)
 .color6 { #e27c2d }; (naranja)
 
-26-5-2023
+03-6-2023
 
 ACTIVIDADES:
 1. MATEAMOS
