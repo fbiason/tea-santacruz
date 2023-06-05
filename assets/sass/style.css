@@ -16,13 +16,21 @@
   opacity: 0.6;
 }
 
+.talleres .fa-solid {
+  color: black;
+}
+
+.talleres .title-t {
+  color: black;
+}
+
 .talleres h2 {
   color: black;
   border-radius: 100%;
 }
 
 .talleres h3 {
-  color: #000000;
+  color: black;
 }
 
 .talleres .article {

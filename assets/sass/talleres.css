@@ -16,6 +16,14 @@
   opacity: 0.6;
 }
 
+.talleres .fa-solid {
+  color: black;
+}
+
+.talleres .title-t {
+  color: black;
+}
+
 .talleres h2 {
   color: black;
   border-radius: 100%;

@@ -17,6 +17,14 @@
   }
 }
 
+.talleres .fa-solid {
+  color: black;
+}
+
+.talleres .title-t {
+  color: black;
+}
+
 .talleres h2 {
   color: black;
   border-radius: 100%;
@@ -37,6 +45,7 @@ gallery {
   flex-flow: row wrap;
   display: flex;
 }
+
 gallery div.item {
   flex: auto;
   width: 200px;
@@ -52,9 +61,11 @@ gallery div.item {
 gallery div.item:nth-child(even) {
   transform: rotate(2deg);
 }
+
 gallery div.item:nth-child(odd) {
   transform: rotate(-4deg);
 }
+
 gallery div.item:nth-child(3n),
 gallery div.item:nth-child(7n) {
   transform: rotate(-7deg);
@@ -71,10 +82,12 @@ gallery div.item img {
   width: 100%;
   height: auto;
 }
+
 @media screen and (max-width: 400px) {
   gallery div.item {
     margin: 0;
   }
+
   gallery {
     padding: 0;
   }
