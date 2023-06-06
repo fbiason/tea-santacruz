@@ -1,3 +1,111 @@
+.hero {
+  overflow-x: hidden;
+  padding: 0;
+
+  .carousel {
+    width: 100%;
+    min-height: 80vh;
+    padding: 80px 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .carousel-item {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+    transition-duration: 0.4s;
+  }
+
+  .carousel-item::before {
+    content: "";
+    background-color: rgba(30, 29, 29, 0.832);
+    position: absolute;
+    inset: 0;
+  }
+
+  .info {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+}
+
+.img-logo {
+  width: 80%;
+  height: 80%;
+}
+
+@media (max-width: 1024px) {
+  .hero .info {
+    margin-block-end: 0rem;
+  }
+  .hero .info h2 {
+    font-size: 40px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero .info {
+    padding: 40px;
+  }
+}
+
+.info h2 {
+  color: rgba(228, 228, 228, 0.92);
+  padding-bottom: 30px;
+  font-size: 56px;
+  font-weight: 700;
+  position: relative;
+}
+
+.hero p {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero .info h2 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+.hero .info p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+@media (max-width: 425px) {
+  .hero .info {
+    margin-block-end: 5rem;
+    padding-block-end: 5rem;
+  }
+  .hero .info h2 img {
+    display: none;
+  }
+  .hero {
+    max-height: 70vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero .info {
+    margin-block-end: 5rem;
+    padding-block-end: 5rem;
+  }
+  .hero .info h2 img {
+    display: none;
+  }
+  .hero {
+    max-height: 60vh;
+  }
+}
+
 
 .talleres .mod {
   background: #145c94;

@@ -15,18 +15,13 @@ Colaboradores:
 Rataty Club
 MPCSS
 
-.talleres .mod1 {
-  padding: 120px 0;
-  color: #fff;
+
+GENERAL CSS
+a {
+  color: #145c94;
+  text-decoration: none;
 }
 
-.talleres .mod1:before {
-  content: "";
-  background: #145c94;
-  position: absolute;
-  bottom: 60px;
-  top: 30px;
-  left: 0;
-  right: 0;
-  transform: skewY(-3deg);
-}
+a:hover {
+  color: #e76668;
+  text-decoratio }
