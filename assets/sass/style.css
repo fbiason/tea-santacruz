@@ -1,3 +1,11 @@
+.talleres .mod {
+  background: #145c94;
+}
+
+.talleres .mod .title-t {
+  color: white;
+}
+
 .talleres .article {
   color: black;
   text-align: justify;
@@ -25,16 +33,6 @@
 
 .talleres h3 {
   color: black;
-}
-
-.mod1 {
-  background: #145c94;
-  position: absolute;
-  bottom: 60px;
-  top: 30px;
-  left: 0;
-  right: 0;
-  transform: skewY(-3deg);
 }
 
 gallery {
@@ -91,7 +89,6 @@ gallery div.item img {
 }
 body {
   font-family: "Open Sans", sans-serif;
-  color: #145c94;
 }
 
 a {
