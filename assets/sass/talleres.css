@@ -1,19 +1,129 @@
-.talleres {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: #94b46c center center no-repeat;
-  background-size: cover;
+.hero {
+  overflow-x: hidden;
+  padding: 0;
 }
-.talleres:before {
-  content: "";
+.hero .carousel {
+  width: 100%;
+  min-height: 80vh;
+  padding: 80px 0;
+  margin: 0;
+  position: relative;
+}
+.hero .carousel-item {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(to bottom right, #94b46c, #145c94);
-  opacity: 0.6;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 1;
+  transition-duration: 0.4s;
+}
+.hero .carousel-item::before {
+  content: "";
+  background-color: rgba(30, 29, 29, 0.832);
+  position: absolute;
+  inset: 0;
+}
+.hero .info {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.img-logo {
+  width: 80%;
+  height: 80%;
+}
+
+@media (max-width: 1024px) {
+  .hero .info {
+    -webkit-margin-after: 0rem;
+            margin-block-end: 0rem;
+  }
+  .hero .info h2 {
+    font-size: 40px;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .hero .info {
+    padding: 40px;
+  }
+}
+.info h2 {
+  color: rgba(228, 228, 228, 0.92);
+  padding-bottom: 30px;
+  font-size: 56px;
+  font-weight: 700;
+  position: relative;
+}
+
+.hero p {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero .info h2 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+}
+.hero .info p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+}
+
+@media (max-width: 425px) {
+  .hero .info {
+    -webkit-margin-after: 5rem;
+            margin-block-end: 5rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+  }
+  .hero .info h2 img {
+    display: none;
+  }
+  .hero {
+    max-height: 70vh;
+  }
+}
+@media (max-width: 360px) {
+  .hero .info {
+    -webkit-margin-after: 5rem;
+            margin-block-end: 5rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+  }
+  .hero .info h2 img {
+    display: none;
+  }
+  .hero {
+    max-height: 60vh;
+  }
+}
+.talleres .mod {
+  background: #145c94;
+}
+
+.talleres .mod .title-t {
+  color: white;
+}
+
+.talleres .article {
+  color: black;
+  text-align: justify;
+}
+
+.talleres .faq-list {
+  text-align: center;
+  justify-content: center;
+}
+
+.talleres .fa-solid {
+  color: #f4bb3c;
+  margin-right: 15px;
 }
 
 .talleres h2 {
@@ -23,11 +133,6 @@
 
 .talleres h3 {
   color: black;
-}
-
-.talleres .article {
-  color: black;
-  text-align: justify;
 }
 
 gallery {
