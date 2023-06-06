@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function mostrarAlerta(mensaje, referencia) {
     limpiarAlerta(referencia);
 
-    // Alerta en HTML
+    // Alerta en HTML.
     const error = document.createElement("P");
     error.textContent = mensaje;
     error.classList.add("bg-light");
