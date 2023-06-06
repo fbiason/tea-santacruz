@@ -2,6 +2,16 @@
   overflow-x: hidden;
   padding: 0;
 }
+.hero h1 {
+  color: white;
+}
+.hero h2 {
+  color: white;
+}
+.hero article {
+  color: white;
+  text-align: justify;
+}
 .hero .carousel {
   width: 100%;
   min-height: 80vh;
@@ -109,11 +119,6 @@
 
 .talleres .mod .title-t {
   color: white;
-}
-
-.talleres .article {
-  color: black;
-  text-align: justify;
 }
 
 .talleres .faq-list {
