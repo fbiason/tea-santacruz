@@ -2,12 +2,6 @@
   overflow-x: hidden;
   padding: 0;
 }
-.hero h1 {
-  color: #f4bb3c;
-}
-.hero h2 {
-  color: white;
-}
 .hero .carousel {
   width: 100%;
   min-height: 80vh;
@@ -15,7 +9,7 @@
   margin: 0;
   position: relative;
 }
-.hero .carousel-item2 {
+.hero .carousel-item {
   position: absolute;
   inset: 0;
   background-size: cover;
@@ -25,25 +19,9 @@
   z-index: 1;
   transition-duration: 0.4s;
 }
-.hero .carousel-item2::before {
+.hero .carousel-item::before {
   content: "";
   background-color: rgba(30, 29, 29, 0.832);
-  position: absolute;
-  inset: 0;
-}
-.hero .carousel-item3 {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: 1;
-  transition-duration: 0.4s;
-}
-.hero .carousel-item3::before {
-  content: "";
-  background-color: rgba(56, 56, 56, 0.467);
   position: absolute;
   inset: 0;
 }

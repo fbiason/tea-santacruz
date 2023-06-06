@@ -2,18 +2,6 @@
   overflow-x: hidden;
   padding: 0;
 
-  h1 {
-    color: #f4bb3c;
-  }
-
-  h2 {
-    color: white;
-  }
-
-  p {
-    color: white;
-  }
-
   .carousel {
     width: 100%;
     min-height: 80vh;
@@ -22,7 +10,7 @@
     position: relative;
   }
 
-  .carousel-item2 {
+  .carousel-item {
     position: absolute;
     inset: 0;
     background-size: cover;
@@ -33,27 +21,9 @@
     transition-duration: 0.4s;
   }
 
-  .carousel-item2::before {
+  .carousel-item::before {
     content: "";
     background-color: rgba(30, 29, 29, 0.832);
-    position: absolute;
-    inset: 0;
-  }
-
-  .carousel-item3 {
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    z-index: 1;
-    transition-duration: 0.4s;
-  }
-
-  .carousel-item3::before {
-    content: "";
-    background-color: (30, 29, 29, 0.832);
     position: absolute;
     inset: 0;
   }
@@ -136,12 +106,13 @@
   }
 }
 
+
 .talleres .mod {
   background: #145c94;
 }
 
 .talleres .mod .title-t {
-  color: white;
+color: white
 }
 
 .talleres .article {
