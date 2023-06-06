@@ -1,28 +1,21 @@
-.talleres {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: #94b46c center center no-repeat;
-  background-size: cover;
+.talleres .article {
+  color: black;
+  text-align: justify;
+}
 
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to bottom right, #94b46c, #145c94);
-    opacity: 0.6;
-  }
+.talleres .faq-list {
+  text-align: center;
+  justify-content: center;
 }
 
 .talleres .fa-solid {
-  color: black;
+  color: #f4bb3c;
+  margin-right: 15px;
 }
 
 .talleres .title-t {
-  color: black;
+  color: #145c94;
+  text-align: justify;
 }
 
 .talleres h2 {
@@ -32,11 +25,6 @@
 
 .talleres h3 {
   color: black;
-}
-
-.talleres .article {
-  color: black;
-  text-align: justify;
 }
 
 gallery {
