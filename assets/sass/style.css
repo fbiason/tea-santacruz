@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .hero {
   overflow-x: hidden;
   padding: 0;
@@ -35,15 +36,31 @@
   position: absolute;
   inset: 0;
 }
+.hero .carousel-item2 {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 1;
+  transition-duration: 0.4s;
+}
+.hero .carousel-item2 ::before {
+  content: "";
+  background-color: rgba(30, 29, 29, 0.832);
+  position: absolute;
+  inset: 0;
+}
 .hero .info {
   position: absolute;
   inset: 0;
   z-index: 2;
 }
-
-.img-logo {
-  width: 80%;
-  height: 80%;
+.hero .art {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
 }
 
 @media (max-width: 1024px) {
@@ -113,6 +130,32 @@
     max-height: 60vh;
   }
 }
+.section-taller {
+  position: relative;
+  padding: 100px 0; /* Ajusta el espacio de relleno según sea necesario */
+  overflow: hidden;
+}
+
+.section-taller .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  transform: translateX(-50%);
+  background-image: url("../img/talleres/bg-taller2.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Configura el degradado como desees */
+  padding: 20px;
+}
+
 .talleres .mod {
   background: #145c94;
 }
@@ -194,6 +237,10 @@ gallery div.item img {
 }
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1,

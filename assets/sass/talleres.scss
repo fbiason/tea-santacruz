@@ -41,16 +41,36 @@
     inset: 0;
   }
 
+  .carousel-item2 {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+    transition-duration: 0.4s;
+  }
+
+  .carousel-item2 ::before {
+    content: "";
+    background-color: rgba(30, 29, 29, 0.832);
+    position: absolute;
+    inset: 0;
+  }
+
   .info {
     position: absolute;
     inset: 0;
     z-index: 2;
   }
-}
 
-.img-logo {
-  width: 80%;
-  height: 80%;
+  .art {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+
 }
 
 @media (max-width: 1024px) {
