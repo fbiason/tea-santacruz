@@ -1,4 +1,11 @@
-@charset "UTF-8";
+.section-taller {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/talleres/bg-taller2.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  padding: 50px;
+}
+
 .hero {
   overflow-x: hidden;
   padding: 0;
@@ -11,7 +18,6 @@
 }
 .hero article {
   color: white;
-  text-align: justify;
 }
 .hero .carousel {
   width: 100%;
@@ -32,7 +38,7 @@
 }
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(30, 29, 29, 0.832);
+  background-color: rgba(30, 29, 29, 0.483);
   position: absolute;
   inset: 0;
 }
@@ -130,32 +136,6 @@
     max-height: 60vh;
   }
 }
-.section-taller {
-  position: relative;
-  padding: 100px 0; /* Ajusta el espacio de relleno según sea necesario */
-  overflow: hidden;
-}
-
-.section-taller .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200%;
-  height: 100%;
-  transform: translateX(-50%);
-  background-image: url("../img/talleres/bg-taller2.jpg");
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-
-.overlay {
-  position: relative;
-  z-index: 1;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Configura el degradado como desees */
-  padding: 20px;
-}
-
 .talleres .mod {
   background: #145c94;
 }

@@ -1,3 +1,11 @@
+.section-taller {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/talleres/bg-taller2.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  padding: 50px;
+}
+
 .hero {
   overflow-x: hidden;
   padding: 0;
@@ -10,7 +18,6 @@
 }
 .hero article {
   color: white;
-  text-align: justify;
 }
 .hero .carousel {
   width: 100%;
@@ -31,7 +38,7 @@
 }
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(30, 29, 29, 0.832);
+  background-color: rgba(30, 29, 29, 0.483);
   position: absolute;
   inset: 0;
 }

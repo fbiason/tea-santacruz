@@ -1,3 +1,11 @@
+.section-taller {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/talleres/bg-taller2.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  padding: 50px;
+}
 .hero {
   overflow-x: hidden;
   padding: 0;
@@ -12,7 +20,6 @@
 
   article {
     color: white;
-    text-align: justify;
   }
 
   .carousel {
@@ -36,7 +43,7 @@
 
   .carousel-item::before {
     content: "";
-    background-color: rgba(30, 29, 29, 0.832);
+    background-color: rgba(30, 29, 29, 0.483);
     position: absolute;
     inset: 0;
   }
@@ -70,7 +77,6 @@
     inset: 0;
     z-index: 2;
   }
-
 }
 
 @media (max-width: 1024px) {
