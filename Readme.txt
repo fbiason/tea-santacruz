@@ -15,13 +15,11 @@ Colaboradores:
 Rataty Club
 MPCSS
 
+-----------
+*Donaciones
 
-GENERAL CSS
-a {
-  color: #145c94;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #e76668;
-  text-decoratio }
+*Hero: -->flechas  punts
+*footer --> enlaces útiles
+*Responsive
+*Mail contacto
+*Noticias

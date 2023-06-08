@@ -6,6 +6,7 @@
   color: white;
   padding: 50px;
 }
+
 .hero {
   overflow-x: hidden;
   padding: 0;
@@ -44,24 +45,6 @@
   .carousel-item::before {
     content: "";
     background-color: rgba(30, 29, 29, 0.483);
-    position: absolute;
-    inset: 0;
-  }
-
-  .carousel-item2 {
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    z-index: 1;
-    transition-duration: 0.4s;
-  }
-
-  .carousel-item2 ::before {
-    content: "";
-    background-color: rgba(30, 29, 29, 0.832);
     position: absolute;
     inset: 0;
   }
@@ -154,13 +137,12 @@
 }
 
 .talleres .faq-list {
-  text-align: center;
-  justify-content: center;
+  text-align: start;
+  justify-content: start;
 }
 
 .talleres .fa-solid {
   color: #f4bb3c;
-  margin-right: 15px;
 }
 
 .talleres h2 {
