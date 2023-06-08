@@ -18,7 +18,9 @@ MPCSS
 -----------
 *Donaciones
 
-*Hero: -->flechas  punts
+*Hero: -->flechas  puntos  
+https://getbootstrap.com/docs/4.0/components/carousel/
+
 *footer --> enlaces útiles
 *Responsive
 *Mail contacto
