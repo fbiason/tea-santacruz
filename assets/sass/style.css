@@ -7,7 +7,7 @@
 }
 
 .bg-taller-mod1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/talleres/bg-taller-mod1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.724)), url("../img/talleres/bg-taller-mod1.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
