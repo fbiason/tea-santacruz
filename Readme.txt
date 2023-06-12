@@ -8,16 +8,21 @@ Paleta Colores:
 
 12-6-2023
 
-Colaboradores:
+
+1) Hero: ponerflechas  puntos  
+https://getbootstrap.com/docs/4.0/components/carousel/
+
+2) Responsive
+--Hero no aparece
+--Disertantes uno encima del otro
+--Ausipiciantes: uno encima del otro
+
+3) Mail contacto
+
+4) Noticias
+
+5) Colaboradores:
 Rataty Club
 MPCSS
 
------------
-*Donaciones
-
-*Hero: -->flechas  puntos  
-https://getbootstrap.com/docs/4.0/components/carousel/
-
-*Responsive
-*Mail contacto
-*Noticias
+6) Donaciones
