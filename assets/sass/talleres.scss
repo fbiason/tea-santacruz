@@ -8,8 +8,47 @@
 }
 
 .bg-taller-mod1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.724)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.232)),
     url("../img/talleres/bg-taller-mod1.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  padding: 50px;
+}
+
+.bg-taller-mod2 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.872),
+      rgba(75, 75, 75, 0.219)
+    ),
+    url("../img/talleres/bg-taller-mod2.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  padding: 50px;
+}
+
+.bg-taller-mod3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.232)),
+    url("../img/talleres/bg-taller-mod3.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  padding: 50px;
+}
+
+.bg-taller-mod4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.232), rgba(0, 0, 0, 0.872)),
+    url("../img/talleres/bg-taller-mod4.jpg");
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  padding: 50px;
+}
+
+.bg-taller-mod5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.232), rgba(0, 0, 0, 0.872)),
+    url("../img/talleres/bg-taller-mod5.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
