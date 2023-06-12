@@ -2127,3 +2127,22 @@ section {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Blog Facebook */
+
+.div-fb {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.div-fb1{
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.fb-page  {
+  width: 800px;
+  display: flex !important;
+  justify-content: space-around !important;
+}

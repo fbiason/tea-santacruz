@@ -29,6 +29,13 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
+  <!-- Script para Formulario -->
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">emailjs.init('_MdZ2tgO1lpuGv8FE')</script>
+
+
   <!-- Template Main CSS File -->
   <link href="assets/sass/style.css" rel="stylesheet" />
 </head>
@@ -674,7 +681,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col form-group">
@@ -702,7 +709,41 @@
                 <button type="submit">Enviar Mensaje</button>
               </div>
             </form>
-          </div>
+          </div> -->
+
+  <!-- Pueba Modificacion de Formulario -->
+
+
+  <div class="col-lg-6">
+    <form id="form" method="post" role="form" class="php-email-form"> 
+      <div class="row">
+        <div class="col form-group">
+          <input type="text" name="from_name" class="form-control" id="from_name" placeholder="Nombre" required />
+        </div>
+        <div class="col form-group">
+          <input type="text" class="form-control" name="email_id" id="email_id" placeholder="Correo electrónico"
+            required />
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto" required />
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Mensaje" required></textarea>
+      </div>
+      <div class="my-3">
+        <div class="loading">Cargando...</div>
+        <!-- <div class="error-message"></div> -->
+        <div class="sent-message">
+          Su mensaje fue enviado con éxito ¡Muchas gracias!
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" id="button" value="Send Email">Enviar Mensaje</button>
+      </div>
+    </form>
+  </div>
+
         </div>
       </div>
     </section>
@@ -871,6 +912,7 @@
   <script src="https://kit.fontawesome.com/799ba8a957.js" crossorigin="anonymous"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/form.js"></script>
 </body>
 
 </html>
