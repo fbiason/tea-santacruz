@@ -31,7 +31,7 @@
 }
 
 .bg-taller-mod4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.232)), url("../img/talleres/bg-taller-mod4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.232), rgba(0, 0, 0, 0.872)), url("../img/talleres/bg-taller-mod4.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
@@ -1938,6 +1938,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
+  font-weight: bold;
   background: #111111;
 }
 
@@ -1946,6 +1947,7 @@ section {
   font-family: "Open Sans";
   line-height: 0;
   font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
 }
 

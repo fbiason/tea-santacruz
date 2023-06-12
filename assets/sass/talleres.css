@@ -39,7 +39,7 @@
 }
 
 .bg-taller-mod5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.232), rgba(0, 0, 0, 0.872)), url("../img/talleres/bg-taller-mod5.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.232)), url("../img/talleres/bg-taller-mod5.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
