@@ -17,7 +17,7 @@ https://getbootstrap.com/docs/4.0/components/carousel/
 --Disertantes uno encima del otro
 --Ausipiciantes: uno encima del otro
 
-3) Mail contacto
+3) Mail contacto (falta sacar el alert de enviado)
 
 4) Noticias
 
