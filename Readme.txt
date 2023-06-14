@@ -9,16 +9,13 @@ Paleta Colores:
 14-6-2023
 
 
-1) Ausipiciantes: responsive
 
-2) Faqs: arreglar
+1) Mail contacto. Controlar que se envie mail
 
-3) Mail contacto
+2) Noticias. FER
 
-4) Noticias
-
-5) Colaboradores:
+3) Colaboradores:
 Rataty Club
 MPCSS
 
-6) Donaciones
+4) Donaciones
