@@ -6,16 +6,14 @@ Paleta Colores:
 .color5 { #94b46c }; (verde)
 .color6 { #e27c2d }; (naranja)
 
-12-6-2023
+14-6-2023
 
 
-1) Hero: ponerflechas  puntos  
-https://getbootstrap.com/docs/4.0/components/carousel/
+1) Testimonial: Responsive
 
-2) Responsive
---Hero no aparece
---Disertantes uno encima del otro
---Ausipiciantes: uno encima del otro
+2) Ausipiciantes: responsive
+
+2.1) Faqs: arreglar
 
 3) Mail contacto
 
