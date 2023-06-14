@@ -9,11 +9,9 @@ Paleta Colores:
 14-6-2023
 
 
-1) Testimonial: igualar cuadros
+1) Ausipiciantes: responsive
 
-2) Ausipiciantes: responsive
-
-2.1) Faqs: arreglar
+2) Faqs: arreglar
 
 3) Mail contacto
 
