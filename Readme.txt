@@ -9,7 +9,7 @@ Paleta Colores:
 14-6-2023
 
 
-1) Testimonial: Responsive
+1) Testimonial: igualar cuadros
 
 2) Ausipiciantes: responsive
 
