@@ -6,23 +6,17 @@ Paleta Colores:
 .color5 { #94b46c }; (verde)
 .color6 { #e27c2d }; (naranja)
 
-12-6-2023
+14-6-2023
 
 
-1) Hero: ponerflechas  puntos  
-https://getbootstrap.com/docs/4.0/components/carousel/
 
-2) Responsive
---Hero no aparece
---Disertantes uno encima del otro
---Ausipiciantes: uno encima del otro
+1) Mail contacto. Controlar que se envie mail
 
 3) Mail contacto (falta sacar el alert de enviado)
+2) Noticias. FER
 
-4) Noticias
-
-5) Colaboradores:
+3) Colaboradores:
 Rataty Club
 MPCSS
 
-6) Donaciones
+4) Donaciones
