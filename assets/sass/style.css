@@ -1,5 +1,6 @@
 .section-taller {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/talleres/bg-taller2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/talleres/bg-taller2.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
@@ -7,7 +8,8 @@
 }
 
 .bg-taller-mod1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.232)), url("../img/talleres/bg-taller-mod1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.232)),
+    url("../img/talleres/bg-taller-mod1.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
@@ -15,7 +17,11 @@
 }
 
 .bg-taller-mod2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(75, 75, 75, 0.219)), url("../img/talleres/bg-taller-mod2.jpg");
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.872),
+      rgba(75, 75, 75, 0.219)
+    ),
+    url("../img/talleres/bg-taller-mod2.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
@@ -23,7 +29,8 @@
 }
 
 .bg-taller-mod3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.232)), url("../img/talleres/bg-taller-mod3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.232)),
+    url("../img/talleres/bg-taller-mod3.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
@@ -31,7 +38,8 @@
 }
 
 .bg-taller-mod4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.232), rgba(0, 0, 0, 0.872)), url("../img/talleres/bg-taller-mod4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.232), rgba(0, 0, 0, 0.872)),
+    url("../img/talleres/bg-taller-mod4.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
@@ -39,127 +47,14 @@
 }
 
 .bg-taller-mod5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.232)), url("../img/talleres/bg-taller-mod5.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.872), rgba(0, 0, 0, 0.232)),
+    url("../img/talleres/bg-taller-mod5.jpg");
   background-size: cover;
   background-position: center top;
   color: white;
   padding: 50px;
 }
 
-.hero {
-  overflow-x: hidden;
-  padding: 0;
-}
-.hero h1 {
-  color: white;
-}
-.hero h2 {
-  color: white;
-}
-.hero article {
-  color: white;
-}
-.hero .carousel {
-  width: 100%;
-  min-height: 80vh;
-  padding: 80px 0;
-  margin: 0;
-  position: relative;
-}
-.hero .carousel-item {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: 1;
-  transition-duration: 0.4s;
-}
-.hero .carousel-item::before {
-  content: "";
-  background-color: rgba(30, 29, 29, 0.483);
-  position: absolute;
-  inset: 0;
-}
-.hero .info {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-.hero .art {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
-@media (max-width: 1024px) {
-  .hero .info {
-    -webkit-margin-after: 0rem;
-            margin-block-end: 0rem;
-  }
-  .hero .info h2 {
-    font-size: 40px;
-    padding-bottom: 0px;
-  }
-}
-@media (max-width: 768px) {
-  .hero .info {
-    padding: 40px;
-  }
-}
-.info h2 {
-  color: rgba(228, 228, 228, 0.92);
-  padding-bottom: 30px;
-  font-size: 56px;
-  font-weight: 700;
-  position: relative;
-}
-
-.hero p {
-  margin-top: 0.5rem;
-}
-
-@media (max-width: 768px) {
-  .hero .info h2 {
-    font-size: 36px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-  }
-}
-.hero .info p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
-}
-
-@media (max-width: 425px) {
-  .hero .info {
-    -webkit-margin-after: 5rem;
-            margin-block-end: 5rem;
-    -webkit-padding-after: 5rem;
-            padding-block-end: 5rem;
-  }
-  .hero .info h2 img {
-    display: none;
-  }
-  .hero {
-    max-height: 70vh;
-  }
-}
-@media (max-width: 360px) {
-  .hero .info {
-    -webkit-margin-after: 5rem;
-            margin-block-end: 5rem;
-    -webkit-padding-after: 5rem;
-            padding-block-end: 5rem;
-  }
-  .hero .info h2 img {
-    display: none;
-  }
-  .hero {
-    max-height: 60vh;
-  }
-}
 .talleres .mod {
   background: #145c94;
 }
@@ -581,7 +476,11 @@ section {
 }
 
 #header.header-transparent {
-  background: linear-gradient(to rigth, rgb(255, 255, 255) 50%, rgb(51, 54, 74) 100%);
+  background: linear-gradient(
+    to rigth,
+    rgb(255, 255, 255) 50%,
+    rgb(51, 54, 74) 100%
+  );
 }
 
 #header.header-scrolled {
@@ -598,54 +497,6 @@ section {
   margin-top: 30px;
   margin: 10px;
   max-height: 80px;
-}
-
-/*--------------------------------------------------------------
-  # Counts
-  --------------------------------------------------------------*/
-.counts {
-  padding-top: 80px;
-}
-
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-}
-
-.counts .count-box i {
-  position: absolute;
-  width: 54px;
-  height: 54px;
-  top: -27px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #fff;
-  color: #e27c2d;
-  border-radius: 50px;
-  border: 2px solid #fff;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 700;
-  color: #111111;
-}
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
 }
 
 .congreso {
@@ -792,7 +643,8 @@ section {
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
@@ -1261,7 +1113,7 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #e27c2d;
   border: 0;
   padding: 10px 32px;
@@ -1270,7 +1122,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #e27c2d;
 }
 
@@ -1812,7 +1664,7 @@ section {
   position: relative;
 }
 
-.blog .sidebar .search-form form input[type=text] {
+.blog .sidebar .search-form form input[type="text"] {
   border: 0;
   padding: 4px;
   border-radius: 4px;
@@ -2054,13 +1906,13 @@ section {
   text-align: center;
 }
 
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type=submit] {
+#footer .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
   right: -1px;
@@ -2076,7 +1928,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-newsletter form input[type=submit]:hover {
+#footer .footer-newsletter form input[type="submit"]:hover {
   background: #f4bb3c;
 }
 
@@ -2133,4 +1985,4 @@ section {
   .modal-content {
     width: 150%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
