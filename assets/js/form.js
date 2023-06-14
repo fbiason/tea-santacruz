@@ -12,6 +12,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
     () => {
       btn.value = "Enviando Email";
       alert("¡Su mensaje fue enviado con éxito!");
+      document.getElementById("form").reset(); // Resetear el formulario
     },
     (err) => {
       btn.value = "Enviando Email";
