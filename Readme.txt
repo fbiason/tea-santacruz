@@ -12,6 +12,7 @@ Paleta Colores:
 
 1) Mail contacto. Controlar que se envie mail
 
+3) Mail contacto (falta sacar el alert de enviado)
 2) Noticias. FER
 
 3) Colaboradores:
