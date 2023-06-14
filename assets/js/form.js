@@ -3,18 +3,18 @@ const btn = document.getElementById("button");
 document.getElementById("form").addEventListener("submit", function (event) {
   event.preventDefault();
 
-  btn.value = "Sending...";
+  btn.value = "Enviando...";
 
   const serviceID = "default_service";
-  const templateID = "template_d44kb4v";
+  const templateID = "template_cd9vxmf";
 
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
-      btn.value = "Send Email";
-      alert("Sent!");
+      btn.value = "Enviando Email";
+      alert("¡Su mensaje fue enviado con éxito!");
     },
     (err) => {
-      btn.value = "Send Email";
+      btn.value = "Enviando Email";
       alert(JSON.stringify(err));
     }
   );
