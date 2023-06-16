@@ -6,12 +6,13 @@ document.getElementById("form").addEventListener("submit", function (event) {
   btn.value = "Enviando...";
 
   const serviceID = "default_service";
-  const templateID = "template_d44kb4v";
+  const templateID = "template_cd9vxmf";
 
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
       btn.value = "Enviando Email";
-      alert("¡Mensaje Enviado!");
+      alert("¡Su mensaje fue enviado con éxito!");
+      document.getElementById("form").reset(); // Resetear el formulario
     },
     (err) => {
       btn.value = "Enviando Email";
