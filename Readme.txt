@@ -7,4 +7,6 @@ Paleta Colores:
 .color6 { #e27c2d }; (naranja)
 
 Ultima Actualización
-15-6-2023
+28-6-2023
+
+- Google Analitycs
