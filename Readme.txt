@@ -9,5 +9,4 @@ Paleta Colores:
 Ultima Actualización
 8-7-2023
 
-- Google Analitycs
-- Cambiar Fotos
+- Actualización Fotos
