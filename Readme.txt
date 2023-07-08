@@ -7,6 +7,7 @@ Paleta Colores:
 .color6 { #e27c2d }; (naranja)
 
 Ultima Actualización
-29-6-2023
+8-7-2023
 
 - Google Analitycs
+- Cambiar Fotos
