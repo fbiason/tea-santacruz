@@ -7,6 +7,6 @@ Paleta Colores:
 .color6 { #e27c2d }; (naranja)
 
 Ultima Actualización
-8-7-2023
+9-7-2023
 
-- Actualización Fotos
+CV Disertantes
