@@ -7,12 +7,6 @@ Paleta Colores:
 .color6 { #e27c2d }; (naranja)
 
 Ultima Actualización
-<<<<<<< HEAD
 10-7-2023
 
 *Se actualizo fotos de las Autoridades
-=======
-9-7-2023
-
-CV Disertantes
->>>>>>> a1cfae3b6dd5ab190988a18b89a4bdbc86766e5a
