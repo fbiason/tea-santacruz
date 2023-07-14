@@ -9,5 +9,5 @@ Paleta Colores:
 Ultima Actualización
 14-7-2023
 
-*Se actualizo texto
+*Se actualizo Proyectos
 *Ver margenes mobile

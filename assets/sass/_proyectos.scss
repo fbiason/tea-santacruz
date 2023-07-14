@@ -1,8 +1,8 @@
-.actividades .nav-actividades {
+.proyectos .nav-proyectos {
   border: 0;
 }
 
-.actividades .nav-link {
+.proyectos .nav-link {
   border: 1px solid #b9b9b9;
   padding: 15px;
   transition: 0.3s;
@@ -20,22 +20,22 @@
   height: 40px;
 }
 
-.actividades .nav-link i {
+.proyectos .nav-link i {
   padding-right: 15px;
   font-size: 48px;
 }
 
-.actividades .nav-link h4 {
+.proyectos .nav-link h4 {
   font-size: 18px;
   font-weight: 600;
   margin: 0;
 }
 
-.actividades .nav-link:hover {
+.proyectos .nav-link:hover {
   color: #f4bb3c;
 }
 
-.actividades .nav-link.active {
+.proyectos .nav-link.active {
   background: #f4bb3c;
   color: #fff;
   border-color: #f4bb3c;
@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 768px) {
-  .actividades .nav-link i {
+  .proyectos .nav-link i {
     padding: 0;
     line-height: 1;
     font-size: 36px;
@@ -54,40 +54,40 @@
 }
 
 @media (max-width: 575px) {
-  .actividades .nav-link {
+  .proyectos .nav-link {
     padding: 15px;
   }
 
-  .actividades .nav-link i {
+  .proyectos .nav-link i {
     font-size: 24px;
   }
 }
 
-.actividades .tab-content {
+.proyectos .tab-content {
   margin-top: 30px;
 }
 
-.actividades .tab-pane h3 {
+.proyectos .tab-pane h3 {
   font-weight: 600;
   font-size: 26px;
 }
 
-.actividades .tab-pane ul {
+.proyectos .tab-pane ul {
   list-style: none;
   padding: 0;
 }
 
-.actividades .tab-pane ul li {
+.proyectos .tab-pane ul li {
   padding-bottom: 10px;
   text-align: justify;
 }
 
-.actividades .tab-pane ul i {
+.proyectos .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #f4bb3c;
 }
 
-.actividades .tab-pane p:last-child {
+.proyectos .tab-pane p:last-child {
   margin-bottom: 0;
 }
