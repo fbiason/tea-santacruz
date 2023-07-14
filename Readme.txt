@@ -7,6 +7,7 @@ Paleta Colores:
 .color6 { #e27c2d }; (naranja)
 
 Ultima Actualización
-10-7-2023
+14-7-2023
 
-*Se actualizo fotos de las Autoridades
+*Se actualizo texto
+*Ver margenes mobile
