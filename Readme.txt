@@ -7,7 +7,6 @@ Paleta Colores:
 .color6 { #e27c2d }; (naranja)
 
 Ultima Actualización
-14-7-2023
+5-10-2023
 
-* Margenes "Nosotros"
-
+Actualizacion Auspiciantes
