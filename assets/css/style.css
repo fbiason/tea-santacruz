@@ -491,10 +491,6 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.ejes {
-  color: white;
-}
-
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -914,6 +910,11 @@ section {
 .btn-1:hover {
   background: rgb(0, 3, 255);
   background: linear-gradient(0deg, #145c94 0%, #94b46c 100%);
+}
+
+.ejes {
+  color: white;
+  padding: 2rem;
 }
 
 .testimonial-card {
