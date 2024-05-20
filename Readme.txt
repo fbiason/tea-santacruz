@@ -7,6 +7,12 @@ Paleta Colores:
 .color6 { #e27c2d }; (naranja)
 
 Ultima Actualización
-5-10-2023
+20-05-2024
 
 Actualizacion Auspiciantes
+
+SASS: 
+sass --watch assets/sass/style.scss:assets/css/style.css
+
+
+

@@ -326,3 +326,20 @@ function changeImage() {
 }
 
 setInterval(changeImage, 3000);
+ 
+
+/** * OCULTAR SECCIONES */
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Selecciona todos los elementos li que son dropdowns
+    var dropdowns = document.querySelectorAll('li.dropdown');
+
+    // Recorre cada dropdown y oculta los que contienen "Talleres" o "Congreso"
+    dropdowns.forEach(function(dropdown) {
+        var spanText = dropdown.querySelector('span').textContent;
+        if (spanText.includes('Talleres') || spanText.includes('Congreso')) {
+            dropdown.style.display = 'none';
+        }
+    });
+});
+

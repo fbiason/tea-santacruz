@@ -1,5 +1,5 @@
 .congreso {
-  background-image: url("../img/congreso/peritomoreno.jpg");
+  background-image: url("../img/congreso/cordoba.jpg");
   background-color: #082c48fc;
   background-blend-mode: overlay;
   background-size: cover;
@@ -9,29 +9,29 @@
 .congreso h1 {
   text-align: center;
   color: #e27c2d;
+  font-size: 2.5em; /* Ajusta el tamaño de la fuente del h1 */
 }
 
 .congreso h2 {
   text-align: center;
   color: #e27c2d;
+  font-size: 2em; /* Ajusta el tamaño de la fuente del h2 */
 }
 
 .congreso h3 {
   text-align: center;
   color: #f4bb3c;
-}
-
-.congreso h4 {
-  text-align: center;
-  color: #f4bb3c;
+  font-size: 1.5em; /* Ajusta el tamaño de la fuente del h3 */
 }
 
 .congreso .icon i {
   color: #f4bb3c;
+  font-size: 3em; /* Ajusta el tamaño de los íconos */
 }
 
-.congreso .icon h4 {
+.congreso .icon h5 {
   color: #fff;
+  font-size: 1.2em; /* Ajusta el tamaño de la fuente del h5 */
 }
 
 .line {
@@ -40,6 +40,7 @@
   width: 50%;
   display: inline-block;
 }
+
 .button {
   text-align: center;
   justify-content: center;
