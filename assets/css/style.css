@@ -1242,11 +1242,6 @@ section {
   background: #fff;
 }
 
-.member-img img {
-  max-width: 600px;
-  height: 100%;
-}
-
 .team .member .social {
   position: absolute;
   left: 0;
@@ -1298,7 +1293,7 @@ section {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #363636;
 }
 
 .team .member .member-info p {
