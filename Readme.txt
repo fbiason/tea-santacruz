@@ -9,8 +9,9 @@ Paleta Colores:
 Ultima Actualización
 27-05-2024
 
-Actualización Talleres + Comisión
-
+- Actualización Talleres
+- Actualización Comisión
+- Optimización de Img Modulo I
 
 SASS: 
 sass --watch assets/sass/style.scss:assets/css/style.css
