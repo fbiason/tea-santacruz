@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Recorre cada dropdown y oculta los que contienen "Talleres" o "Congreso"
     dropdowns.forEach(function(dropdown) {
         var spanText = dropdown.querySelector('span').textContent;
-        if (spanText.includes('Talleres') || spanText.includes('Congreso')) {
+        if ( spanText.includes('Congreso')) {
             dropdown.style.display = 'none';
         }
     });

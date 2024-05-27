@@ -185,8 +185,8 @@
 gallery {
   padding: 0.5vw;
   font-size: 0;
-  flex-flow: row wrap;
   display: flex;
+  flex-flow: initial !important; /* Fuerza el valor de flex-flow */
 }
 
 gallery div.item {
