@@ -7,11 +7,9 @@ Paleta Colores:
 .color6 { #e27c2d }; (naranja)
 
 Ultima Actualización
-27-05-2024
+05-06-2024
 
-- Actualización Talleres
-- Actualización Comisión
-- Optimización de Img Modulo I
+- Cambio de número de Cogreso
 
 SASS: 
 sass --watch assets/sass/style.scss:assets/css/style.css
